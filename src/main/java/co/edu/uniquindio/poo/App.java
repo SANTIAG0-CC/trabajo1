@@ -6,6 +6,13 @@ package co.edu.uniquindio.poo;
  */
 public class App {
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+
+        Perro perros = new Perro("Max", "corggy");
+
+        for (int i = 0; i <= 3; i++){
+
+            perros.caminar(30);
+        }
+
     }
 }
